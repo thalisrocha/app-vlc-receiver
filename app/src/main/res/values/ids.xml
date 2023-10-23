@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="myCameraView" type="id" />
+    <item name="btnBack" type="id" />
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.andoird.com/apk/res-auto"
+    xmlns:tools="http://schemas.andoird.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.primeiroprojeto.opencv1.MainActivity3">
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/myCameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        opencv:show_fps="true"></org.opencv.android.JavaCameraView>
+
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:text="BACK" />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btnSeeValues"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginBottom="40dp"-->
+    <!--        android:text="See Values" />-->
+
+</RelativeLayout>

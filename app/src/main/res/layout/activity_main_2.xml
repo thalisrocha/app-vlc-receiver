@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Esse linear layout é para mudar a cor de fundo da tela inicial (ta branco pra bater com a logo do hucam)-->
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="62dp" >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="128dp"
+        android:layout_height="53dp"
+        android:background="#4169E1"
+        android:gravity="center"
+        android:text="Menu"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btnStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.806" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="115dp"
+        android:layout_height="60dp"
+        android:text="SIMULATION"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.415" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="115dp"
+        android:layout_height="60dp"
+        android:text="EXIT"
+        app:layout_constraintEnd_toEndOf="@+id/realTime"
+        app:layout_constraintStart_toStartOf="@+id/realTime"
+        app:layout_constraintTop_toBottomOf="@+id/realTime" />
+
+    <Button
+        android:id="@+id/realTime"
+        android:layout_width="128dp"
+        android:layout_height="53dp"
+        android:text="REAL TIME"
+        app:layout_constraintEnd_toEndOf="@+id/btnStart"
+        app:layout_constraintStart_toStartOf="@+id/btnStart"
+        app:layout_constraintTop_toBottomOf="@+id/btnStart"
+        />
+    <!--<ImageView-->
+    <!--    android:layout_width="184dp"-->
+    <!--    android:layout_height="244dp"-->
+    <!--    android:contentDescription="@string/todo"-->
+    <!--    android:scaleType="fitEnd"-->
+    <!--    android:src="@drawable/hucam_logo"-->
+    <!--    app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--    app:layout_constraintEnd_toEndOf="parent"-->
+    <!--    app:layout_constraintHorizontal_bias="0.497"-->
+    <!--    app:layout_constraintStart_toStartOf="parent"-->
+    <!--    app:layout_constraintTop_toBottomOf="@+id/btnExit"-->
+    <!--    app:layout_constraintVertical_bias="1.0" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
