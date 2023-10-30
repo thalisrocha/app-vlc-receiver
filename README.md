@@ -15,13 +15,13 @@ This repository contains the source code and documentation for a mobile applicat
 
 The system's performance was evaluated based on the distance between the transmitter and the receiver. A fixed 16-bit packet was transmitted using a frequency modulation of 2 kHz with On-Off Keying (OOK). Tests were conducted at various distances, using colimating lenses. Results showed variations in the system's processing and decoding capabilities based on the distance between devices.
 
-![Placeholder for Distance-Based Result Image](image-report/image1.png)
+![Placeholder for Distance-Based Result Image](images-report/image1.png)
 
 ### Performance Based on Transmission Frequency
 
 The device's camera captures at a rate of 30 fps (frames per second). The system's performance was also evaluated based on the transmission frequency, particularly at 2, 4, and 6 kHz. It was observed that an increase in transmission frequency does not necessarily result in a higher number of packets recovered per frame.
 
-![Placeholder for Frequency-Based Result Image](image-report/image2.png)
+![Placeholder for Frequency-Based Result Image](images-report/image2.png)
 
 ## Conclusion and Future Projects
 
